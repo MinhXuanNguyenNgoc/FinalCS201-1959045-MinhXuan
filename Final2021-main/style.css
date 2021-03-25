@@ -1,0 +1,106 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+.logo{
+  width: 150px;
+  height: 50px;
+}
+.jumbotron-fluid {
+    padding-right: 182px;
+    padding-left: 395px;
+    padding-top: 431px;
+    border-radius: 0;
+}
+.container-banner{
+  height: 76vh;
+  width: 100%;
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.display-4{
+  padding-top: 330px;
+  font-size: 15px;
+}
+img.card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+h5.card-title{
+  height: 150px;
+}
+.top-rating {
+  position: relative;
+}
+.slider-arrow {
+  background: none;
+  opacity: 0.5;
+  position: absolute;
+  overflow: visible;
+}
+.my-slider{
+   padding-right: 15px;
+}
+.rightcenter {
+  right: 0rem;
+  top: 50%;
+  bottom: auto;
+}
+.leftcenter {
+  left: 0rem;
+  top: 50%;
+  bottom: auto;
+}
+.auto {
+  display: none;
+}
+footer{
+  text-align: left;
+  /* background: #1E242F; */
+  background: firebrick;
+  padding: 100px 0 1px;
+}
+footer .container{
+  padding: 30px 3%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+#footer-span {
+  display: block;
+  margin: -60px auto 10px;
+  text-align: center;
+  font-size: 1.125rem;
+  padding: 25px 0 40px;
+  background-size: 100px;
+  color: white;
+}
+.footer-col h3{
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  margin: 30px auto 10px;
+  padding-left: 37px;
+}
+.footer-col ul{
+  display: table;
+}
+.footer-col ul a{
+  list-style: none;
+  font-size: 0.8125rem;
+  padding: 0;
+  margin: 0;
+}
+.footer-col a{
+  color: #B7BEC2;
+}
+.price{
+  color: #ed0000;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
